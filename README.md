@@ -8,7 +8,6 @@ Design and Implementation of a CLR Parser Generator Using Canonical LR(1) Item S
 - Member 2: GURUTHEJA KAVUTURI
 - Member 3: EPHRAIM IMMANUEL
 - Member 4: GOYAL HEMANT ANIL
-- Member 5: NGASSAM YUMOU KAMGA
 
 ## Tech Stack
 - Language: C
