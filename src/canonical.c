@@ -1,4 +1,3 @@
-```c
 #include <stdio.h>
 #include <stdlib.h>
 #include "canonical.h"
@@ -99,4 +98,4 @@ void canonical_print(const CanonicalCollection *c) {
         printf("\n");
     }
 }
-```
+
