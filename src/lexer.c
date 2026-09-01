@@ -50,7 +50,7 @@ void lexer_destroy(TokenStream *ts) {
 }
 
 void lexer_print(const Grammar *g, const TokenStream *ts) {
-    printf("Tokens:");g
+    printf("Tokens:");
     for (int i = 0; i < ts->count; i++) {
         printf(" %s", grammar_symbol_name(g, ts->tokens[i]));
     }

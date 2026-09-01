@@ -4,7 +4,7 @@
 #include "grammar.h"
 
 typedef struct {
-    int *tokens;     
+    int *tokens;
     int count;
     int capacity;
 } TokenStream;
