@@ -1,0 +1,5 @@
+# Classic dangling-else style ambiguous grammar: exposes a
+# shift-reduce conflict when building the ACTION table.
+%start S
+S -> if E then S | if E then S else S | id
+E -> id

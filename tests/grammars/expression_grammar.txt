@@ -1,0 +1,5 @@
+# Classic left-recursive arithmetic expression grammar.
+%start E
+E -> E + T | T
+T -> T * F | F
+F -> ( E ) | id
